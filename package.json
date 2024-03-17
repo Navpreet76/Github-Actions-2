@@ -1,0 +1,19 @@
+{
+  "name": "github-actions-2",
+  "version": "1.0.0",
+  "description": "github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navpreet76/Github-Actions-2.git"
+  },
+  "author": "Navpreet Chhina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Navpreet76/Github-Actions-2/issues"
+  },
+  "homepage": "https://github.com/Navpreet76/Github-Actions-2#readme"
+}
