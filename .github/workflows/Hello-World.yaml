@@ -29,8 +29,9 @@ jobs:
         with:
         # The Java version to set up. Takes a whole or semver Java version. See examples of supported syntax in README file
           java-version: 11
+          distribution: "Eclipse Temurin"
         # The package type (jdk, jre, jdk+fx, jre+fx)
-          java-package: "https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.deb (sha256)"
+          java-package: "jdk"
         # Set this option if you want the action to check for the latest available version that satisfies the version spec
           check-latest: true
         # ID of the distributionManagement repository in the pom.xml file. Default is `github`
