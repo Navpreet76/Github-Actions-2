@@ -21,3 +21,4 @@ jobs:
           working-directory: client
           build: npm run build
           start: npm start
+          run: sudo touch package-lock.json /home/runner/work/Github-Actions-2/Github-Actions-2/client
