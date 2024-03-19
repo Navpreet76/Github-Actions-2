@@ -15,10 +15,14 @@ jobs:
         uses: actions/checkout@v4
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
+      - name: Install package-lock.json
+        run: cd /home/runner/work/Github-Actions-2/Github-Actions-2/client
+      - name: Touch package-lock.json
+        run: sudo touch package-lock.json
       - name: Cypress run
         uses: cypress-io/github-action@v6
         with:
           working-directory: client
           build: npm run build
           start: npm start
-          run: sudo touch package-lock.json /home/runner/work/Github-Actions-2/Github-Actions-2/client
+          
