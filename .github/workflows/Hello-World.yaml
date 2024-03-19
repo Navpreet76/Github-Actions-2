@@ -32,7 +32,7 @@ jobs:
         # Java distribution. See the list of supported distributions in README file
           distribution: jdk
         # The package type (jdk, jre, jdk+fx, jre+fx)
-          java-package: jdk
+          java-package: "https://download.oracle.com/java/22/latest/jdk-22_linux-x64_bin.deb (sha256)"
         # Set this option if you want the action to check for the latest available version that satisfies the version spec
           check-latest: true
         # ID of the distributionManagement repository in the pom.xml file. Default is `github`
